@@ -28,6 +28,7 @@ class Resource:
     def maybe_add_extra_processing_time(self):
       return
     
+    
     def maybe_schedule_job_from_queue(self):
       if self.is_resource_free():
         if not self.job_queue.empty():

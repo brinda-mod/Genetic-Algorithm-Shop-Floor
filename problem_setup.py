@@ -35,8 +35,10 @@ class ProblemSetup:
       pass
 
     
+
+    
     #-------------------------the below inputs are from batches or templates we have created-------------------------------#
-    #this function should return a dictionary like {'batch_number' : [batch_size, batch_ri, batch_min_request_date,cff_or_dbf,cast_house}
+    #batch_number, batch_size, batch_ri, batch_min_request_date,cff_or_dbf, cast_house, alloy, width_of_RI
     #see definition of job class below for more information 
 
     def get_batch_inputs(self):
